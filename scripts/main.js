@@ -33,8 +33,7 @@ else {
     miTitulo.textContent = 'Mozilla es genial,' + nombreAlmacenado;
 }
 
-*/
-
 miBoton.onclick = function() {
     estableceNombreUsuario();
 }
+*/

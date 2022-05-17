@@ -13,7 +13,7 @@ miImage.onclick = function () {
     }
 }
 
-
+/*
 
 function estableceNombreUsuario() {
     let miNombre = prompt('Introduzca su nombre.');
@@ -32,6 +32,8 @@ else {
     let nombreAlmacenado = localStorage.getItem('nombre');
     miTitulo.textContent = 'Mozilla es genial,' + nombreAlmacenado;
 }
+
+*/
 
 miBoton.onclick = function() {
     estableceNombreUsuario();

@@ -1,5 +1,5 @@
 let miImage = document.querySelector('img');
-let miBoton = document.querySelector('button');
+//let miBoton = document.querySelector('button');
 let miTitulo = document.querySelector( 'h1');
 
 miImage.onclick = function () {

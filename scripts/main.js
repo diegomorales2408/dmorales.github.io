@@ -1,15 +1,19 @@
 let miImage = document.querySelector('img');
+let miBoton = document.querySelector('button');
+let miTitulo = document.querySelector( 'h1');
+
 miImage.onclick = function () {
     let miSrc = miImage.getAttribute('src');
-    if (miSrc === 'images/firefox-icon.png') {
-      miImage.setAttribute('src','images/descarga.png');
+    if (miSrc === 'images/merli.png') {
+      miImage.setAttribute('src','images/merli2.png');
+      miTitulo.textContent = 'Pero se enoja y te saca un diente jajaja';
     } else {
-      miImage.setAttribute('src', 'images/firefox-icon.png');
+      miImage.setAttribute('src', 'images/merli.png');
+      miTitulo.textContent = 'La odontóloga más sexi del condado';
     }
 }
 
-let miBoton = document.querySelector('button');
-let miTitulo = document.querySelector( 'h1');
+
 
 function estableceNombreUsuario() {
     let miNombre = prompt('Introduzca su nombre.');
